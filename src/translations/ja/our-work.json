@@ -1,0 +1,24 @@
+{
+  "hero": {
+    "headline": "コンセプト、ビジュアライゼーション＆デザインの方向性",
+    "subheadline": "技術的な精度とネパールの建築遺産の融合を探求。"
+  },
+  "filters": {
+    "all": "すべて",
+    "homeConcepts": "住宅コンセプト",
+    "interiorConcepts": "インテリアコンセプト",
+    "commercial": "商業施設",
+    "renovation": "リノベーション",
+    "visualization": "3Dビジュアライゼーション"
+  },
+  "empty": {
+    "headline": "プロジェクトが見つかりません。",
+    "body": "別のカテゴリを選択してみてください。"
+  },
+  "cta": {
+    "headline": "次のプロジェクトを可視化する準備はできていますか？",
+    "subheadline": "私たちのチームがあなたのアイデアを明確な建築の方向性に変えます。",
+    "button": "デザインの旅を始める",
+    "secondaryButton": "すべてのサービスを見る"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "home": "Home",
+  "services": "Services",
+  "ourWork": "Our Work",
+  "process": "Process",
+  "about": "About",
+  "contact": "Contact",
+  "login": "Login",
+  "register": "Register",
+  "dashboard": "Dashboard",
+  "logout": "Logout",
+  "myProjects": "My Projects",
+  "billing": "Billing",
+  "account": "Account",
+  "languageSwitcher": {
+    "label": "Language",
+    "tooltip": "Switch language"
+  }
+}

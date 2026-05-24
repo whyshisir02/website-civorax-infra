@@ -1,0 +1,26 @@
+{
+  "hero": {
+    "badge": "お問い合わせ",
+    "headline": "プロジェクトについて話しましょう。",
+    "subheadline": "アイデア、予算、場所をお聞かせください。次の実践的なステップをお手伝いします。"
+  },
+  "form": {
+    "name": "お名前",
+    "email": "メールアドレス",
+    "phone": "電話番号",
+    "projectType": "プロジェクトタイプ",
+    "message": "プロジェクトの詳細",
+    "messagePlaceholder": "プロジェクト、予算範囲、場所を説明してください...",
+    "submit": "メッセージを送る",
+    "sending": "送信中...",
+    "successTitle": "メッセージを送信しました！",
+    "successBody": "24時間以内にご連絡します。",
+    "errorTitle": "送信失敗",
+    "errorBody": "もう一度お試しいただくか、WhatsAppでご連絡ください。"
+  },
+  "info": {
+    "address": "カトマンズ、ネパール",
+    "email": "hello@civorax.com",
+    "whatsapp": "WhatsAppでチャット"
+  }
+}

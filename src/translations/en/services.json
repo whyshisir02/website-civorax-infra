@@ -1,0 +1,33 @@
+{
+  "hero": {
+    "badge": "Our Services",
+    "headline": "Building-related services with clarity before execution.",
+    "subheadline": "We help clients plan, design, renovate, visualize, and build better spaces through field understanding, budget-aware guidance, and clear communication.",
+    "cta": "Discuss Your Project",
+    "secondaryCta": "See Our Process"
+  },
+  "construction": {
+    "title": "Building Construction",
+    "description": "Planning and execution support for residential and building-related construction projects."
+  },
+  "renovation": {
+    "title": "Renovation & Remodeling",
+    "description": "Improving existing homes, rooms, offices, and spaces with better planning and finishing."
+  },
+  "interior": {
+    "title": "Interior Design",
+    "description": "Practical and premium interior direction based on lifestyle, function, taste, and budget."
+  },
+  "visualization": {
+    "title": "3D Design & Visualization",
+    "description": "Visual design support to help clients understand their space before execution begins."
+  },
+  "fieldVisit": {
+    "title": "Field Visit & Site Study",
+    "description": "Understanding the real site condition, location, access, and client needs before planning."
+  },
+  "budgetPlanning": {
+    "title": "Budget-Based Planning",
+    "description": "Helping clients choose better design, material, and execution options under their budget range."
+  }
+}

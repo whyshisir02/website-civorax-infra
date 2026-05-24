@@ -1,0 +1,26 @@
+{
+  "hero": {
+    "badge": "Contact Us",
+    "headline": "Let's discuss your project.",
+    "subheadline": "Share your idea, budget, and location. We will help you understand the practical next step."
+  },
+  "form": {
+    "name": "Your Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "projectType": "Project Type",
+    "message": "Project Details",
+    "messagePlaceholder": "Describe your project, budget range, and location...",
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "successTitle": "Message sent!",
+    "successBody": "We will get back to you within 24 hours.",
+    "errorTitle": "Failed to send",
+    "errorBody": "Please try again or contact us via WhatsApp."
+  },
+  "info": {
+    "address": "Kathmandu, Nepal",
+    "email": "hello@civorax.com",
+    "whatsapp": "Chat on WhatsApp"
+  }
+}

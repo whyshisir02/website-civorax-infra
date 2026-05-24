@@ -1,0 +1,23 @@
+{
+  "hero": {
+    "badge": "Our Process",
+    "headline": "A clear process from first call to final handover.",
+    "subheadline": "We believe clients should understand every step before committing time, money, and trust to a project."
+  },
+  "steps": {
+    "step1": { "title": "Initial Consultation", "description": "We understand your project idea, goals, budget, and location in a free consultation call." },
+    "step2": { "title": "Site Visit & Study", "description": "We visit the site to understand real conditions, access, orientation, and practical requirements." },
+    "step3": { "title": "Design & Visualization", "description": "We create design concepts, 3D visualizations, and layout directions for your review." },
+    "step4": { "title": "BOQ & Budget Estimate", "description": "We prepare a Bill of Quantities and a realistic cost estimate before any commitment." },
+    "step5": { "title": "Execution & Supervision", "description": "We coordinate execution, supervise quality, track progress, and keep you informed throughout." }
+  },
+  "estimator": {
+    "badge": "Planning Tool",
+    "headline": "Project Budget Estimator",
+    "subheadline": "Get an early-stage cost estimate before your site visit."
+  },
+  "cta": {
+    "headline": "Ready to start your project?",
+    "button": "Book Free Consultation"
+  }
+}

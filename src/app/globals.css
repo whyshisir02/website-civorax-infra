@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fcf9f4;
+  --foreground: #081d30;
+  --surface: #fcf9f4;
+  --surface-low: #f6f3ee;
+  --primary: #006c4e;
+  --primary-bright: #20b486;
+  --navy: #081d30;
+  --muted: #6d7a72;
+  --border-soft: #e5e2dd;
+  --terracotta: #984724;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-manrope), Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-sora), Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+::selection {
+  background: var(--primary-bright);
+  color: white;
+}
+
+.font-sora {
+  font-family: var(--font-sora), Arial, Helvetica, sans-serif;
+}
+
+.font-manrope {
+  font-family: var(--font-manrope), Arial, Helvetica, sans-serif;
+}
+
+.font-plusJakarta {
+  font-family: var(--font-plus-jakarta), Arial, Helvetica, sans-serif;
+}
+
+.service-card:hover {
+  box-shadow: 0 0 30px rgba(32,180,134,0.3), 0 20px 50px rgba(8,29,48,0.12);
+  border-color: rgba(32,180,134,0.5);
+}

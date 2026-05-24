@@ -1,0 +1,25 @@
+{
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "ourWork": "Our Work",
+      "process": "Process",
+      "about": "About Us",
+      "contact": "Contact",
+      "cta": "Discuss Your Project"
+    },
+    "hero": {
+      "titleLine1": "Build Smarter.",
+      "titleLine2": "Design Better.",
+      "titleLine3": "Live Better.",
+      "description": "We help homeowners and businesses in Nepal plan, design, estimate, and build with clarity, transparency, and engineering discipline.",
+      "primaryCta": "Discuss Your Project",
+      "secondaryCta": "Explore Services",
+      "cardTitle": "Plan → Preview → Build",
+      "cardDescription": "Reduce confusion before construction begins through clear planning, visual design, BOQ, and guided execution.",
+      "trust1": "Nepal-Based Team",
+      "trust2": "Transparent Planning",
+      "trust3": "Design Before Build",
+      "trust4": "Budget-Focused Execution"
+    }
+  }

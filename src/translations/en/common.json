@@ -1,0 +1,22 @@
+{
+  "loading": "Loading...",
+  "error": "Something went wrong",
+  "retry": "Try again",
+  "save": "Save",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "delete": "Delete",
+  "edit": "Edit",
+  "close": "Close",
+  "back": "Back",
+  "next": "Next",
+  "submit": "Submit",
+  "sending": "Sending...",
+  "success": "Success",
+  "learnMore": "Learn more",
+  "viewAll": "View all",
+  "getStarted": "Get started",
+  "contactUs": "Contact us",
+  "bookConsultation": "Book free consultation",
+  "discussProject": "Discuss your project"
+}

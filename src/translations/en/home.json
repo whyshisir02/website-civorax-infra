@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "badge": "Nepal's Infrastructure Partner",
+    "headline": "Build with clarity, planning, and trust.",
+    "subheadline": "CivoraX Infra helps you plan, design, renovate, visualize, and build better spaces with clear communication and practical guidance.",
+    "cta": "Book Free Consultation",
+    "secondaryCta": "See Our Work"
+  },
+  "services": {
+    "badge": "What We Do",
+    "headline": "End-to-end building services.",
+    "viewAll": "View all services"
+  },
+  "process": {
+    "badge": "How We Work",
+    "headline": "A clear process from start to finish.",
+    "viewProcess": "See full process"
+  },
+  "work": {
+    "badge": "Portfolio",
+    "headline": "Concepts, visualizations & design directions.",
+    "viewAll": "View all projects"
+  },
+  "trust": {
+    "badge": "Why Trust Us",
+    "headline": "Building trust through transparency."
+  },
+  "cta": {
+    "headline": "Ready to build something great?",
+    "subheadline": "Share your project idea and we'll help you take the next step.",
+    "button": "Start your project"
+  },
+  "design": {
+    "badge": "Design First",
+    "headline": "Visualize before you build."
+  }
+}

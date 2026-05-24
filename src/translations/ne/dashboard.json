@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "overview": "अवलोकन",
+    "projects": "मेरा परियोजनाहरू",
+    "billing": "बिलिङ",
+    "materials": "सामग्रीहरू",
+    "progress": "प्रगति",
+    "documents": "कागजातहरू",
+    "account": "खाता सेटिङ"
+  },
+  "overview": {
+    "greeting": "फिर्ता स्वागत छ, {name}",
+    "activeProjects": "सक्रिय परियोजनाहरू",
+    "totalBilled": "कुल बिल गरिएको",
+    "nextMilestone": "अर्को माइलस्टोन",
+    "lastUpdate": "अन्तिम अपडेट {date}"
+  },
+  "projects": {
+    "title": "मेरा परियोजनाहरू",
+    "empty": "अझै कुनै परियोजना छैन। सुरु गर्न हामीलाई सम्पर्क गर्नुहोस्।",
+    "status": {
+      "planning": "योजना",
+      "inProgress": "प्रगतिमा",
+      "onHold": "होल्डमा",
+      "completed": "सम्पन्न"
+    }
+  },
+  "billing": {
+    "title": "बिलिङ र भुक्तानीहरू",
+    "totalAmount": "कुल रकम",
+    "paid": "भुक्तान गरिएको",
+    "pending": "बाँकी",
+    "invoice": "इनभ्वाइस"
+  }
+}

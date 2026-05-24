@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "overview": "概要",
+    "projects": "マイプロジェクト",
+    "billing": "請求",
+    "materials": "材料",
+    "progress": "進捗",
+    "documents": "書類",
+    "account": "アカウント設定"
+  },
+  "overview": {
+    "greeting": "おかえりなさい、{name}",
+    "activeProjects": "進行中のプロジェクト",
+    "totalBilled": "請求合計",
+    "nextMilestone": "次のマイルストーン",
+    "lastUpdate": "最終更新 {date}"
+  },
+  "projects": {
+    "title": "マイプロジェクト",
+    "empty": "まだプロジェクトがありません。始めるにはお問い合わせください。",
+    "status": {
+      "planning": "計画中",
+      "inProgress": "進行中",
+      "onHold": "保留中",
+      "completed": "完了"
+    }
+  },
+  "billing": {
+    "title": "請求と支払い",
+    "totalAmount": "合計金額",
+    "paid": "支払済み",
+    "pending": "未払い",
+    "invoice": "請求書"
+  }
+}

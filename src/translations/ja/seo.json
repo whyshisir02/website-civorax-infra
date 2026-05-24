@@ -1,0 +1,32 @@
+{
+  "home": {
+    "title": "CivoraX Infra — 明確さと信頼で建てる | ネパール",
+    "description": "ネパールの建設・デザイン計画会社。明確なプロセスと予算を意識したガイダンスで空間を建設・改装・可視化します。",
+    "keywords": "ネパール建設, ネパール建築, カトマンズ改装, インテリアデザイン"
+  },
+  "services": {
+    "title": "サービス — 建設、デザイン＆改装 | CivoraX Infra",
+    "description": "ネパールの建物建設、改装、インテリアデザイン、3Dビジュアライゼーションサービス。",
+    "keywords": "ネパール建設サービス, 改装サービス"
+  },
+  "about": {
+    "title": "CivoraX Infraについて — ミッションと価値観",
+    "description": "CivoraX Infraについて学ぶ。明確さ、信頼、実践的な建設ガイダンスに焦点を当てたネパール登録のインフラ会社。",
+    "keywords": "CivoraX Infraについて, ネパールインフラ会社"
+  },
+  "contact": {
+    "title": "お問い合わせ — CivoraX Infra",
+    "description": "建設、改装、デザインプロジェクトについてCivoraX Infraにお問い合わせください。",
+    "keywords": "CivoraX お問い合わせ, ネパール建設相談"
+  },
+  "process": {
+    "title": "私たちのプロセス — CivoraXの進め方",
+    "description": "初回相談からプロジェクト完了までのステップバイステッププロセスを理解する。",
+    "keywords": "ネパール建設プロセス"
+  },
+  "ourWork": {
+    "title": "実績 — ポートフォリオ＆ビジュアライゼーション | CivoraX Infra",
+    "description": "建築コンセプト、3Dビジュアライゼーション、デザインの方向性のポートフォリオを探る。",
+    "keywords": "ネパール建築ポートフォリオ, 3Dデザイン"
+  }
+}

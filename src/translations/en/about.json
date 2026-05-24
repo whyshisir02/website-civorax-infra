@@ -1,0 +1,26 @@
+{
+  "hero": {
+    "badge": "About CivoraX",
+    "headline": "Building with clarity, planning, and trust.",
+    "subheadline": "A Nepal-registered infrastructure company based in Kathmandu. We focus on helping clients plan, design, renovate, visualize, and build better spaces.",
+    "cta": "Book Free Consultation",
+    "secondaryCta": "Explore Services"
+  },
+  "mission": {
+    "badge": "Our Mission",
+    "headline": "To make building decisions easier, clearer, and more trustworthy.",
+    "body": "Our mission is to help people in Nepal make smarter building decisions through better planning, clear design direction, budget-aware guidance, and practical execution support."
+  },
+  "values": {
+    "badge": "Our Values",
+    "clarity": { "title": "Clarity First", "description": "Clients should understand the plan, budget, scope, and steps before construction begins." },
+    "budget": { "title": "Budget-Aware Planning", "description": "We align design, materials, and execution with the client's budget range." },
+    "design": { "title": "Design Before Build", "description": "We focus on visual direction and planning before moving into physical execution." },
+    "trust": { "title": "Trust Through Process", "description": "We build trust with communication, field understanding, and honest guidance." }
+  },
+  "stage": {
+    "badge": "Current Stage",
+    "headline": "We are newly established.",
+    "body": "CivoraX Infra is in its early stage. Completed project case studies will be added as real work becomes available."
+  }
+}

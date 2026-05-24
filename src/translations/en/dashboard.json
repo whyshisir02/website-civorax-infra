@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "overview": "Overview",
+    "projects": "My Projects",
+    "billing": "Billing",
+    "materials": "Materials",
+    "progress": "Progress",
+    "documents": "Documents",
+    "account": "Account Settings"
+  },
+  "overview": {
+    "greeting": "Welcome back, {name}",
+    "activeProjects": "Active Projects",
+    "totalBilled": "Total Billed",
+    "nextMilestone": "Next Milestone",
+    "lastUpdate": "Last updated {date}"
+  },
+  "projects": {
+    "title": "My Projects",
+    "empty": "No projects yet. Contact us to get started.",
+    "status": {
+      "planning": "Planning",
+      "inProgress": "In Progress",
+      "onHold": "On Hold",
+      "completed": "Completed"
+    }
+  },
+  "billing": {
+    "title": "Billing & Payments",
+    "totalAmount": "Total Amount",
+    "paid": "Paid",
+    "pending": "Pending",
+    "invoice": "Invoice"
+  }
+}

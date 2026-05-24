@@ -1,0 +1,19 @@
+{
+  "home": "गृहपृष्ठ",
+  "services": "सेवाहरू",
+  "ourWork": "हाम्रो काम",
+  "process": "प्रक्रिया",
+  "about": "हाम्रो बारेमा",
+  "contact": "सम्पर्क",
+  "login": "लगइन",
+  "register": "दर्ता गर्नुहोस्",
+  "dashboard": "ड्यासबोर्ड",
+  "logout": "लगआउट",
+  "myProjects": "मेरा परियोजनाहरू",
+  "billing": "बिलिङ",
+  "account": "खाता",
+  "languageSwitcher": {
+    "label": "भाषा",
+    "tooltip": "भाषा बदल्नुहोस्"
+  }
+}

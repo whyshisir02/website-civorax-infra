@@ -1,0 +1,24 @@
+{
+  "hero": {
+    "headline": "Concepts, Visualizations & Design Directions",
+    "subheadline": "Exploring the synergy between technical precision and Nepali architectural heritage."
+  },
+  "filters": {
+    "all": "All",
+    "homeConcepts": "Home Concepts",
+    "interiorConcepts": "Interior Concepts",
+    "commercial": "Commercial",
+    "renovation": "Renovation",
+    "visualization": "3D Visualization"
+  },
+  "empty": {
+    "headline": "No projects found.",
+    "body": "Try selecting another category."
+  },
+  "cta": {
+    "headline": "Ready to visualize your next project?",
+    "subheadline": "Our team is here to turn your ideas into clear architectural directions.",
+    "button": "Start Your Design Journey",
+    "secondaryButton": "View All Services"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "home": {
+    "title": "CivoraX Infra — Build with Clarity & Trust | Nepal",
+    "description": "Nepal's construction and design planning company. We help you build, renovate, and visualize your space with a clear process and budget-aware guidance.",
+    "keywords": "construction Nepal, architecture Nepal, renovation Kathmandu, interior design Nepal, 3D visualization"
+  },
+  "services": {
+    "title": "Services — Construction, Design & Renovation | CivoraX Infra",
+    "description": "Building construction, renovation, interior design, 3D visualization, field visits, and budget planning services in Nepal.",
+    "keywords": "construction services Nepal, renovation services, interior design Kathmandu"
+  },
+  "about": {
+    "title": "About CivoraX Infra — Our Mission & Values",
+    "description": "Learn about CivoraX Infra, a Nepal-registered infrastructure company focused on clarity, trust, and practical building guidance.",
+    "keywords": "about CivoraX Infra, infrastructure company Nepal"
+  },
+  "contact": {
+    "title": "Contact Us — CivoraX Infra",
+    "description": "Get in touch with CivoraX Infra to discuss your construction, renovation, or design project.",
+    "keywords": "contact CivoraX, construction consultation Nepal"
+  },
+  "process": {
+    "title": "Our Process — How CivoraX Works",
+    "description": "Understand our step-by-step process from initial consultation to project completion.",
+    "keywords": "construction process Nepal, how CivoraX works"
+  },
+  "ourWork": {
+    "title": "Our Work — Portfolio & Visualizations | CivoraX Infra",
+    "description": "Explore our portfolio of architectural concepts, 3D visualizations, and design directions.",
+    "keywords": "architecture portfolio Nepal, construction portfolio, 3D design Nepal"
+  }
+}
