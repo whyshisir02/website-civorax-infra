@@ -1,16 +1,22 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import { Eye, EyeOff, LogIn } from "lucide-react";
 import Button from "@/shared/ui/Button";
 import LocaleLink from "@/shared/ui/LocaleLink";
 import { validateLoginForm } from "@/features/auth/validators/auth.validators";
 import { loginAction } from "@/features/auth/server-actions/auth.actions";
 import type { LoginFormData } from "@/features/auth/types/auth.types";
+import { useLocale } from "next-intl";
 
 type FieldErrors = Partial<Record<keyof LoginFormData, string>>;
 
 export default function LoginForm() {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const locale = useLocale();
+
   const [form, setForm] = useState<LoginFormData>({ email: "", password: "" });
   const [errors, setErrors] = useState<FieldErrors>({});
   const [serverError, setServerError] = useState<string | null>(null);
@@ -40,7 +46,10 @@ export default function LoginForm() {
       const result = await loginAction(form);
       if (!result.success) {
         setServerError(result.error ?? "Login failed. Please try again.");
+        return;
       }
+      const callbackUrl = searchParams.get("callbackUrl");
+      router.push(callbackUrl ?? `/${locale}/dashboard`);
     } finally {
       setIsSubmitting(false);
     }
