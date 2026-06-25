@@ -27,6 +27,19 @@ export const metadata: Metadata = {
   title: "CivoraX Infra Pvt. Ltd.",
   description:
     "CivoraX Infra Pvt. Ltd. is a Nepal-based infrastructure company focused on construction, design, planning, renovation, and project execution.",
+  icons: {
+    icon: [
+      { url: "/favicon/favicon.ico", sizes: "any" },
+      { url: "/favicon/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+    ],
+    apple: { url: "/favicon/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    other: [
+      { rel: "manifest", url: "/favicon/site.webmanifest" },
+    ],
+  },
 };
 
 export default async function RootLayout({
