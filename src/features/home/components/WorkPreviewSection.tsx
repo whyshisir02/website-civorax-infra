@@ -1,6 +1,7 @@
 import LocaleLink from "@/shared/ui/LocaleLink";
 import { ArrowRight } from "lucide-react";
-import { projects } from "@/entities/projects";
+
+import { projects, categories } from "@/entities/projects";
 
 export default function WorkPreviewSection() {
   const featuredProjects = projects.filter((project) => project.featured);
@@ -32,16 +33,20 @@ export default function WorkPreviewSection() {
           {featuredProjects.map((project, index) => {
             const isLarge = project.size === "large";
 
+            const category = categories.find(
+              (c) => c.id === project.categories[0]
+            );
+
             return (
               <LocaleLink
-                key={project.slug}
-                href="/our-work"
+                key={project.id}
+                href={`/our-work/${project.categories[0]}/${project.slug}`}
                 className={`group relative min-h-[280px] overflow-hidden rounded-[28px] shadow-[0_20px_70px_rgba(8,29,48,0.10)] ${
                   isLarge ? "md:col-span-8" : "md:col-span-4"
                 } ${index === 1 ? "md:min-h-[390px]" : ""}`}
               >
                 <img
-                  src={project.image}
+                  src={project.thumbnail}
                   alt={project.title}
                   className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
@@ -49,7 +54,7 @@ export default function WorkPreviewSection() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent" />
 
                 <div className="absolute left-6 top-6 rounded-full bg-[#e8855d]/90 px-4 py-1.5 text-xs font-bold text-[#370e00] backdrop-blur-md">
-                  {project.category}
+                  {category?.label}
                 </div>
 
                 <div className="absolute inset-x-0 bottom-0 p-6 text-white sm:p-8">
@@ -62,7 +67,7 @@ export default function WorkPreviewSection() {
                   </h3>
 
                   <p className="mt-2 max-w-md text-sm leading-6 text-white/78">
-                    {project.description}
+                    {project.shortDescription}
                   </p>
 
                   <span className="mt-5 inline-flex items-center gap-2 text-sm font-bold text-[#77fac7] opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
