@@ -60,7 +60,7 @@ export default function TeamSection() {
           })}
         </div>
 
-        <div className="team-grid">
+        <div className="grid grid-cols-2 gap-x-4 gap-y-10 sm:grid-cols-4 md:grid-cols-5">
           {visibleMembers.map((member) => (
             <TeamMemberCard key={member.slug} member={member} />
           ))}

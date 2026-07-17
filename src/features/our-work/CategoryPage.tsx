@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { categories, projects } from "@/entities/projects";
 
 import HeroSection from "./components/HeroSection";
-import ProjectGrid from "./components/ProjectGrid";
+import ProjectGrid from "./components/project/ProjectGrid";
 import CTASection from "./components/CTASection";
 
 type Props = {
@@ -31,10 +31,7 @@ export default function CategoryPage({ categorySlug }: Props) {
         }
       />
 
-      <ProjectGrid
-        projects={filteredProjects}
-        activeFilter={category.id}
-      />
+      <ProjectGrid projects={filteredProjects} />
 
       <CTASection />
     </main>

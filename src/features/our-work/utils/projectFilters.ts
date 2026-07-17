@@ -77,10 +77,6 @@ export function getLatestProjects(
   limit = 6
 ): Project[] {
   return [...projects]
-    .sort(
-      (a, b) =>
-        new Date(b.publishedAt).getTime() -
-        new Date(a.publishedAt).getTime()
-    )
+    .sort((a, b) => (b.year ?? 0) - (a.year ?? 0))
     .slice(0, limit);
 }   
