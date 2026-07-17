@@ -15,6 +15,7 @@ import {
 } from "lucide-react";
 import { consultationLink } from "@/entities/navigation";
 import { company } from "@/entities/company";
+import TeamSection from "./TeamSection";
 
 const companyFacts = [
   { label: "Company", value: company.name },
@@ -308,6 +309,8 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      <TeamSection />
 
       <section className="mx-auto max-w-[1280px] px-5 py-24 sm:px-8 lg:px-16 lg:py-32">
         <div className="grid gap-7 lg:grid-cols-12">

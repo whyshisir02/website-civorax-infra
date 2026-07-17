@@ -1,4 +1,4 @@
-import OurWorkPage from "@/features/our-work/components/OurWorkPage";
+import OurWorkPage from "@/features/our-work/OurWorkPage";
 
 export default function Page() {
   return <OurWorkPage />;
